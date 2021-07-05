@@ -9,9 +9,9 @@
     "action": {
         "default_title": "Press to generate and insert uuid",
         "default_icon": {
-            "16": "16x16.png",
-            "24": "24x24.png",
-            "32": "31x31.png"
+            "16": "resources/16x16.png",
+            "24": "resources/24x24.png",
+            "32": "resources/31x31.png"
         }
     },
     "permissions": ["activeTab", "scripting"]
