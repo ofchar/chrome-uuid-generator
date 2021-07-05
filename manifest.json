@@ -2,5 +2,12 @@
     "name": "uuid generator",
     "description": "Nothing less and probably nothing more! Puts generated uuid in currently selected input field on the page.",
     "version": "1.0",
-    "manifest_version": 3
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_title": "Press to generate and insert uuid"
+    },
+    "permissions": ["activeTab", "scripting"]
 }
