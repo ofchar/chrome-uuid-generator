@@ -1,0 +1,6 @@
+{
+    "name": "uuid generator",
+    "description": "Nothing less and probably nothing more! Puts generated uuid in currently selected input field on the page.",
+    "version": "1.0",
+    "manifest_version": 3
+}
